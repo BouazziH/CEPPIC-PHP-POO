@@ -1,10 +1,10 @@
 <?php
+// extends c'est pour lheriter d'une autre class
 
-class Voiture{
-    private string $couleur ;
-    private  int $masse;
-    private string $marque;
-    private int $vitesse = 0;
+
+
+class Voiture extends Vehicule{
+    
 
     public function __construct(string $color,int $mass,string $brand)
     {
